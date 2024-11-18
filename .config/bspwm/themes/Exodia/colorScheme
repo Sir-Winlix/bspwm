@@ -1,0 +1,34 @@
+! ------------------------------------
+! 
+!  Exodia color scheme
+!
+!  @author      : 00xWolf
+!    GitHub    : @mmsaeed509
+!    Developer : Mahmoud Mohamed
+!  﫥  Copyright : Exodia OS
+!
+! ------------------------------------
+
+*foreground:        #D1CDDC
+*background:        #0F0A10
+
+! Colors 0-15
+
+*color0:   #0F0A10
+*color1:   #8E74A0
+*color2:   #8962D6
+*color3:   #8B5EE6
+*color4:   #8F63E8
+*color5:   #759CA7
+*color6:   #6DD588
+*color7:   #D1CDDC
+
+*color8:   #928F9A
+*color9:   #8E74A0
+*color10:  #8962D6
+*color11:  #8B5EE6
+*color12:  #8F63E8
+*color13:  #759CA7
+*color14:  #6DD588
+*color15:  #D1CDDC
+

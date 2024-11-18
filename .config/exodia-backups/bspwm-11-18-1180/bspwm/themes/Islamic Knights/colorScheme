@@ -1,0 +1,33 @@
+! ------------------------------------
+! 
+!  Islamic Warrior color scheme
+!
+!  @author      : 00xWolf
+!    GitHub    : @mmsaeed509
+!    Developer : Mahmoud Mohamed
+!  﫥  Copyright : Exodia OS
+!
+! ------------------------------------
+
+*background:#1a1f26
+*foreground: #0abdc6
+
+! Colors 0-15.
+*color0:   #030F17
+*color1:   #26506F
+*color2:   #496773
+*color3:   #0F588A
+*color4:   #186DA7
+*color5:   #157DBF
+*color6:   #2597DB
+*color7:   #9FCDE3
+
+*color8:   #6F8F9E
+*color9:   #26506F
+*color10:  #496773
+*color11:  #0F588A
+*color12:  #186DA7
+*color13:  #157DBF
+*color14:  #2597DB
+*color15:  #9FCDE3
+

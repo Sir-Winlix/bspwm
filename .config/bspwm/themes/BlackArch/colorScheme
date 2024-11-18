@@ -1,0 +1,33 @@
+! ------------------------------------
+! 
+!  BlackArch color scheme
+!
+!  @author      : 00xWolf
+!    GitHub    : @mmsaeed509
+!    Developer : Mahmoud Mohamed
+!  﫥  Copyright : Exodia OS
+!
+! ------------------------------------
+
+*background: #010204
+*foreground: #A7C2E8
+
+! Colors 0-15.
+*color0:   #010204
+*color1:   #0950B0
+*color2:   #446695
+*color3:   #4F76AE
+*color4:   #1969DC
+*color5:   #3686F6
+*color6:   #5986C2
+*color7:   #A7C2E8
+
+*color8:   #7487A2
+*color9:   #0950B0
+*color10:  #446695
+*color11:  #4F76AE
+*color12:  #1969DC
+*color13:  #3686F6
+*color14:  #5986C2
+*color15:  #A7C2E8
+

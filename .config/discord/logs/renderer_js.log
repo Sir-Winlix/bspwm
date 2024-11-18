@@ -1,0 +1,49 @@
+[2024-11-18 16:50:00.224] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-18 16:50:00.409] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-18 16:50:00.409] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-18 16:50:00.996] [info]  Initializing voice engine with audio subsystem: standard
+[2024-11-18 16:50:01.074] [info]  [default] [BUILD INFO] Release Channel: stable, Build Number: 345150, Version Hash: 4973e66324d3413fe276fa6c45ecf045af0314f3
+[2024-11-18 16:50:01.195] [info]  [default] [NATIVE INFO] host 0.0.74, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 1, discord_zstd: 1, build: null
+[2024-11-18 16:50:01.234] [error] [Spellchecker] sh is not a valid locale.
+[2024-11-18 16:50:01.263] [info]  [Spellchecker] Switching to es-ES (available)
+[2024-11-18 16:50:01.264] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-18 16:50:03.193] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-18 16:50:03.193] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-18 16:50:04.463] [warn]  [CloudSyncUtils] CloudSync is not supported on this platform
+[2024-11-18 16:50:05.348] [info]  [RPCServer:WSS] Starting on 6463
+[2024-11-18 16:50:05.356] [info]  [RPCServer:IPC] Starting on /run/user/1000/discord-ipc-0
+[2024-11-18 16:50:14.696] [info]  [LoginQRSocket] [0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2
+[2024-11-18 16:50:14.890] [info]  [LoginQRSocket] [194ms] got hello, auth timeout=299781ms
+[2024-11-18 16:50:14.949] [info]  [LoginQRSocket] [253ms] connected, handshaking with fingerprint: U-j0IDZmyJgTvUNQO7nJzppCQXsXwR4SXXQ4hgcgwBs
+[2024-11-18 16:50:15.058] [info]  [LoginQRSocket] [361ms] computed nonce proof
+[2024-11-18 16:50:15.171] [info]  [LoginQRSocket] [475ms] handshake complete awaiting remote auth.
+[2024-11-18 16:55:14.672] [info]  [LoginQRSocket] [299974ms] disconnected, code: 4003 Handshake Timeout
+[2024-11-18 16:55:14.673] [error] [LoginQRSocket] Could not complete QR code login, trying to restart with a new QR code.
+[2024-11-18 16:55:17.001] [info]  [LoginQRSocket] [302304ms] cleaning up
+[2024-11-18 16:55:17.001] [info]  [LoginQRSocket] [0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2
+[2024-11-18 16:55:17.175] [info]  [LoginQRSocket] [175ms] got hello, auth timeout=264385ms
+[2024-11-18 16:55:17.247] [info]  [LoginQRSocket] [247ms] connected, handshaking with fingerprint: 9Kz7zZpZ5P0Bf3uSWellqAdnkQazW4bgnMvc2FZ2NaY
+[2024-11-18 16:55:17.356] [info]  [LoginQRSocket] [356ms] computed nonce proof
+[2024-11-18 16:55:17.462] [info]  [LoginQRSocket] [462ms] handshake complete awaiting remote auth.
+[2024-11-18 16:57:59.845] [info]  [LoginQRSocket] [162842ms] remote auth handshake started, awaiting ticket/cancel.
+[2024-11-18 16:58:01.897] [info]  [Flux] Dispatching LOGIN
+[2024-11-18 16:58:01.898] [info]  [Flux] Dispatching LOGIN_SUCCESS
+[2024-11-18 16:58:01.909] [info]  [Routing/Utils] transitionTo - Transitioning to /app
+[2024-11-18 16:58:01.914] [info]  [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2024-11-18 16:58:01.915] [info]  [LoginQRSocket] [164915ms] cleaning up
+[2024-11-18 16:58:02.109] [info]  [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 194 ms
+[2024-11-18 16:58:02.869] [info]  [GatewaySocket] [READY] took 955ms, as ec30f0daa53f082c21a1561d6ee1817c
+[2024-11-18 16:58:02.894] [info]  [Flux] Dispatching CONNECTION_OPEN
+[2024-11-18 16:58:02.898] [info]  [DatabaseManager] removing database (user: 160118482858409985, database: undefined)
+[2024-11-18 16:58:02.906] [warn]  [NativeDispatchUtils] Tried getting Dispatch instance before instantiated
+[2024-11-18 16:58:02.918] [info]  [Spotify] WS Connecting
+[2024-11-18 16:58:02.918] [info]  [Spotify] Added account: 3xm0icrs3h9m4clv5fxps0dsx
+[2024-11-18 16:58:02.956] [info]  [GatewaySocket] [READY_SUPPLEMENTAL] took 1041ms
+[2024-11-18 16:58:03.108] [info]  [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+[2024-11-18 16:58:03.271] [info]  [Spotify] WS Connected
+[2024-11-18 16:58:03.380] [info]  [Spotify] Devices updated for 3xm0icrs3h9m4clv5fxps0dsx: 
+[2024-11-18 16:58:03.406] [info]  [Spotify] Profile updated for 3xm0icrs3h9m4clv5fxps0dsx: isPremium = false
+[2024-11-18 16:58:03.431] [error] Unrecognized Content-Security-Policy directive 'prefetch-src'.
+[2024-11-18 16:58:05.214] [error] Access to XMLHttpRequest at 'https://cdn.discordapp.com/changelogs/config_0.json?x=11' from origin 'https://discordapp.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[2024-11-18 16:58:05.217] [error] Uncaught (in promise) Error: Request has been terminated
+Possible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc.

@@ -1,0 +1,38 @@
+! ------------------------------------
+! 
+!  VALORANT color scheme
+!
+!  @author      : 00xWolf
+!    GitHub    : @mmsaeed509
+!    Developer : Mahmoud Mohamed
+!  﫥  Copyright : Exodia OS
+!
+! ------------------------------------
+
+
+*background: #0B0C0F
+*foreground: #F59AA1
+
+*color0:  #0B0C0F
+*color8:  #AB6B70
+
+*color1:  #553D4D
+*color9:  #553D4D
+
+*color2:  #8C2C38
+*color10: #8C2C38
+
+*color3:  #A7323D
+*color11: #A7323D
+
+*color4:  #9C3247
+*color12: #9C3247
+
+*color5:  #C93C4D
+*color13: #C93C4D
+
+*color6:  #E94E5B
+*color14: #E94E5B
+
+*color7:  #F59AA1
+*color15: #F59AA1

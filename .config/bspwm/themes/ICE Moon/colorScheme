@@ -1,0 +1,33 @@
+! ------------------------------------
+! 
+!  ICE Moon color scheme
+!
+!  @author      : 00xWolf
+!    GitHub    : @mmsaeed509
+!    Developer : Mahmoud Mohamed
+!  﫥  Copyright : Exodia OS
+!
+! ------------------------------------
+
+*background: #010D16
+*foreground: #9FCEE6
+
+! Colors 0-15.
+*color0:   #010D16
+*color1:   #234D6C
+*color2:   #476675
+*color3:   #0C5689
+*color4:   #166CA6
+*color5:   #157BBF
+*color6:   #2497DC
+*color7:   #9ECDE5
+
+*color8:   #6E8FA0
+*color9:   #234D6C
+*color10:  #476675
+*color11:  #0C5689
+*color12:  #166CA6
+*color13:  #157BBF
+*color14:  #2497DC
+*color15:  #9ECDE5
+

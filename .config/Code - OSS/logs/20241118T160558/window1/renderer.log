@@ -1,0 +1,17 @@
+2024-11-18 16:05:59.341 [info] Started local extension host with pid 50467.
+2024-11-18 16:05:59.364 [info] Started initializing default profile extensions in extensions installation folder. file:///home/pedro/.vscode-oss/extensions
+2024-11-18 16:05:59.488 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/pedro/.vscode-oss/extensions
+2024-11-18 16:06:02.211 [info] [perf] Render performance baseline is 25ms
+2024-11-18 16:07:19.701 [info] Started local extension host with pid 51827.
+2024-11-18 16:07:22.358 [info] [perf] Render performance baseline is 22ms
+2024-11-18 16:22:18.801 [error] There are no commenting ranges at the current position (with range).: Error: There are no commenting ranges at the current position (with range).
+    at Ov.addCommentAtLine (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:644:2600)
+    at Ov.addOrToggleCommentAtLine (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:644:2138)
+    at Ov.db (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:644:1787)
+    at vZ.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:643:21213)
+    at Af.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:747)
+    at Af.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:817)
+    at Af.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:30:1034)
+    at Af.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:19570)
+    at s.onMouseUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:262:17539)
+    at fli.emitMouseUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:135:17522)

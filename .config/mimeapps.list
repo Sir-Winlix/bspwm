@@ -1,0 +1,26 @@
+[Added Associations]
+image/png=viewnior.desktop;org.kde.gwenview.desktop;
+image/jpeg=org.kde.gwenview.desktop;viewnior.desktop;
+image/gif=viewnior.desktop;
+image/svg+xml=viewnior.desktop;
+text/x-csrc=geany.desktop;
+text/plain=code.desktop;geany.desktop;
+application/x-shellscript=code.desktop;geany.desktop;
+application/x-theme=geany.desktop;
+application/json=geany.desktop;
+text/markdown=code.desktop;
+application/yaml=code.desktop;
+application/pdf=brave-browser.desktop;
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+
+[Default Applications]
+image/gif=viewnior.desktop
+image/svg+xml=viewnior.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+text/html=brave-browser.desktop
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
+

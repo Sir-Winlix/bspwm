@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_icon": "img/icon128.png",
+      "default_popup": "view/popup.html"
+   },
+   "author": "Ludwig V.",
+   "background": {
+      "service_worker": "js/worker.js"
+   },
+   "content_scripts": [ {
+      "js": [ "js/parser.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "https://real-debrid.com/",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "32": "img/icon32.png",
+      "48": "img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqh5lptEDggEpA5yj9Hv9rMfJUUOYjHqVBKwjZcwWw44HC13zf9EAooSOFVoFrPx8LQqDUj46p456VG75QXeO4lG+y86MEB1orV9e658ZonXzhyDCEZo4XBFcWzKu/pcIN7BbbVFcEnocEfYruCuDFZgI5gTMLTkZ4CMbG6aT+Gbpo9Mie3oBysBNwjLiJTEJlQFivaXQCTe77/wuRWsPbeTYPdoESCQAsTvDym7VzpiNW5pjRXyEQALVxee9fX3UukC2gKG4Q3sNyG2/RBHaNAU1fXS28MUsogHrg+UxsEIPXE9GWYeT9+nxRMpxNg3ZDuE2cqm8owwR6jHI0QnetQIDAQAB",
+   "manifest_version": 3,
+   "name": "Real-Debrid extension",
+   "permissions": [ "tabs", "activeTab", "clipboardWrite", "contextMenus", "storage", "notifications", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.0"
+}

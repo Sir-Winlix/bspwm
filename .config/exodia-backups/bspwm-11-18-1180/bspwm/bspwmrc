@@ -1,0 +1,200 @@
+#!/usr/bin/env bash
+
+#####################################
+#                                   #
+#  @author      : 00xWolf           #
+#    GitHub    : @mmsaeed509       #
+#    Developer : Mahmoud Mohamed   #
+#  﫥  Copyright : Exodia OS        #
+#                                   #
+#####################################
+
+# Environtment path #
+export PATH="${PATH}:$HOME/.config/bspwm/bin:$HOME/.config/bspwm/rofi/bin:$HOME/.local/bin"
+
+# bspwm config directory #
+BSPWM_DIR="$HOME/.config/bspwm"
+
+##  -------------------------------------- Configurations --------------------------------------  ##
+
+# set keyboard Layouts #
+KEYBOARD_LAYOUTS=$(grep -oP 'keyboard-layouts = \K.*' "${BSPWM_DIR}/exodia.conf")
+if [[ -z "$KEYBOARD_LAYOUTS" ]];
+	
+	then
+	
+		KEYBOARD_LAYOUTS=us
+fi
+
+setxkbmap -layout ${KEYBOARD_LAYOUTS}
+setxkbmap -option 'grp:alt_shift_toggle'
+# ------------------------------------------------------------------------------ #
+
+# colors directory #
+XRES="$HOME/.Xresources.d"
+
+# Updating Color Schemes #
+COLOR_SCHEME=$(grep -oP 'color-scheme = \K.*' "${BSPWM_DIR}/exodia.conf")
+if [[ -z "$COLOR_SCHEME" ]];
+	
+	then
+	
+		COLOR_SCHEME="Japanese Street 2"
+fi
+
+cat "${BSPWM_DIR}/themes/${COLOR_SCHEME}/colorScheme" > "${XRES}"/colors
+# ------------------------------------------------------------------------------ #
+
+# Solve java apps issues (e.g. JetBrains IDEs like PyCharm, CLion, etc). #
+export _JAVA_AWT_WM_NONREPARENTING=1 
+
+# To support other applications that don't work on WMs #
+wmname LG3D
+# ------------------------------------------------------------------------------ #
+
+# setup connected monitors #
+NUM_OF_MONITORS=$(xrandr --listmonitors | grep -c "^ ")  # No. monitors #
+MONITORS_LAYOUTS=$(grep -oP 'monitors-layouts = \K.*' "${BSPWM_DIR}/exodia.conf")
+
+if [[ ${NUM_OF_MONITORS} -ge 1 ]];
+
+	then
+		
+		if [[ -z "$MONITORS_LAYOUTS" ]];
+
+			then
+
+				bspmonitors
+		
+		else
+
+			bash ${MONITORS_LAYOUTS}
+		
+		fi
+		
+fi
+# ------------------------------------------------------------------------------ #
+
+# Workspaces Configurations #
+workspaces() {
+	
+	name=1
+	
+	for monitor in `xrandr -q | grep -w 'connected' | cut -d' ' -f1`; 
+
+		do
+
+			bspc monitor ${monitor} -n "$name" -d '' '' '' '' '' '' '' ''
+			let name++
+
+	done
+
+}
+
+workspaces
+# ------------------------------------------------------------------------------ #
+
+# load bspwm Configurations #
+bspconfig
+# ------------------------------------------------------------------------------ #
+
+# Manage all the unmanaged windows remaining from a previous session. #
+bspc wm --adopt-orphans
+# ------------------------------------------------------------------------------ #
+
+# Window rules #
+bsprules
+# ------------------------------------------------------------------------------ #
+
+
+##  ------------------------- Autostart Apps -------------------------  ##
+
+# Kill if already running #
+killall -9 xsettingsd sxhkd dunst ksuperkey xfce4-power-manager bspc picom
+# ------------------------------------------------------------------------------ #
+
+# Lauch xsettingsd daemon #
+xsettingsd --config="${BSPWM_DIR}"/xsettingsd &
+# ------------------------------------------------------------------------------ #
+
+# polkit agent #
+if [[ ! `pidof xfce-polkit` ]];
+	
+	then
+		
+		/usr/lib/xfce-polkit/xfce-polkit &
+
+fi
+# ------------------------------------------------------------------------------ #
+
+# Lauch keybindings daemon #
+KEYBINDING=$(grep -oP 'keybinding = \K.*' "${BSPWM_DIR}/exodia.conf")
+	if [[ -z "$KEYBINDING" ]];
+
+		then
+
+			KEYBINDING=sxhkdrc
+	fi
+
+sxhkd -c "${BSPWM_DIR}"/keybinding/${KEYBINDING} &
+# ------------------------------------------------------------------------------ #
+
+# Enable Super Keys For Menu #
+ksuperkey -e 'Super_L=Alt_L|F1' &
+ksuperkey -e 'Super_R=Alt_L|F1' &
+# ------------------------------------------------------------------------------ #
+
+# Enable power manager #
+xfce4-power-manager &
+# ------------------------------------------------------------------------------ #
+
+# Fix cursor #
+xsetroot -cursor_name left_ptr
+# ------------------------------------------------------------------------------ #
+
+# restore wallpaper #
+BACKGROUND=$(grep -oP 'background = \K.*' "${BSPWM_DIR}/exodia.conf")
+	if [[ -z "$BACKGROUND" ]];
+
+		then
+
+			BACKGROUND=/usr/share/backgrounds/JapaneseCity.png
+	fi
+	
+feh --no-fehbg --bg-fill ${BACKGROUND}
+# ------------------------------------------------------------------------------ #
+
+# enable num lock #
+numlockx &
+# ------------------------------------------------------------------------------ #
+
+# Start mpd #
+exec mpd &
+# ------------------------------------------------------------------------------ #
+
+# start bspwm scripts #
+bspcolors
+bspcomp
+bspbar
+bspdunst 
+bspfloat &
+# ------------------------------------------------------------------------------ #
+
+# Lauch Exodia OS Assistant #
+STATUS=$(grep -Po 'exodia-assistant-auto-start\s*=\s*\K.*' ${BSPWM_DIR}/exodia.conf)
+
+if [[ -z "$STATUS" ]];
+	
+	then
+	
+		exodia-assistant
+
+elif [[ ${STATUS} == "true" ]];
+	
+	then
+
+    	exodia-assistant
+
+fi
+
+##  ------------------------------------- END --------------------------------------------------  ##

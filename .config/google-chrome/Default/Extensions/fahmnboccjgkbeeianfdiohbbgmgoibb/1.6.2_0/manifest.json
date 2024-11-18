@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "32": "icons/icon32.png",
+         "48": "icons/icon48.png"
+      },
+      "default_title": "Debrid Media Manager"
+   },
+   "content_scripts": [ {
+      "js": [ "content_script.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Add accessible DMM buttons to IMDB, MDBList, AniDB, TraktTV, and Bittorrent sites with magnet links",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkm/07WzAXe5QBrOt/sntUCbl4PqH1jTrZWAeimgIkcYZ8+FGVHspYAikOkdRMbiO+NGnY8bHb2NrB3w4DeS7MSW24AEKoTktCPqyZxWTLUKzxfa/Qg8jZC+r3IUJaWzFAqeDcTy6f4rfhO9rxfLqjhc4Xh6UQ+YSeVRLQdyGGcEP6MLnTcRZSd5M1wen6F754MAsGBktBx0s5gQn/d3C+8cDOhSQTUMEFe3ZgOtbRSJaPfwqIWDZnFJypmVV81Iyohs35IsaAxC1YjgeB4qb5rUNdy9hUFKwj0HSKFdixuBndzKf6BN1Aq78HVm27dWq5Miv0z2/xrX59mbVBqOSeQIDAQAB",
+   "manifest_version": 3,
+   "name": "Debrid Media Manager",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.2"
+}

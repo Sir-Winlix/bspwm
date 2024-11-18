@@ -1,0 +1,33 @@
+! ------------------------------------
+! 
+!  Islamic Knights color scheme
+!
+!  @author      : 00xWolf
+!    GitHub    : @mmsaeed509
+!    Developer : Mahmoud Mohamed
+!  﫥  Copyright : Exodia OS
+!
+! ------------------------------------
+
+*background: #03111C
+*foreground: #ABD3DB
+
+! Colors 0-15.
+*color0:   #03111C
+*color1:   #265A70
+*color2:   #476171
+*color3:   #29728A
+*color4:   #47778E
+*color5:   #368BA1
+*color6:   #4A9FB3
+*color7:   #ABD3DB
+
+*color8:   #779399
+*color9:   #265A70
+*color10:  #476171
+*color11:  #29728A
+*color12:  #47778E
+*color13:  #368BA1
+*color14:  #4A9FB3
+*color15:  #ABD3DB
+

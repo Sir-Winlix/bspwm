@@ -1,0 +1,31 @@
+[color]
+
+FOREGROUND = #01AD19
+BACKGROUND = #101419
+BLACK = #122401
+RED = #6DDE00
+GREEN = #00fa5c
+YELLOW = #76EA00
+BLUE = #578a29
+MAGENTA = #b00749
+CYAN = #539e06
+WHITE = #00ff59
+ALTBLACK = #BD3BFD
+ALTRED = #070283
+ALTGREEN = #9100a6
+ALTYELLOW = #ff0064
+ALTBLUE = #0254C1
+ALTMAGENTA = #00FE66
+ALTCYAN = #32FF00
+ALTWHITE = #A1271A
+
+bar-background = #272d36
+
+apps-color = #00FA5C
+red-color = #ff0000
+pink-color = #FF0677
+purple = #7936ff
+deep-green = #2e5c03
+color-1 = #d19a66
+color-2 = #989cff
+color-3 = #80e6fe

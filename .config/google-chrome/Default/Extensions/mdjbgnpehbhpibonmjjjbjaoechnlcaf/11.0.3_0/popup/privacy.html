@@ -1,0 +1,101 @@
+<html style="width: 100%; height: auto;">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="fa.css">
+		<link rel="stylesheet" href="simplebar.css">
+		<link rel="stylesheet" href="popup.css">
+	</head>
+	<body style="width: 100%; height: auto;">
+		<div class="privacySinglePage">
+			<div class="privacyTitle" data-lang="privacy_title">Privacy policy</div>
+			<div class="privacyLang" style="text-align: center;"><span id='langFr' style="cursor: pointer;"><img src="../img/fr.png" /> Français</span> / <span id='langEn' style="cursor: pointer;"><img src="../img/us.png" /> English</span></div>
+			<br /><br />
+			<div class="privacySubTitleLocal" data-lang="privacy_subtitle_local">You must enable local data policy to use Local Streaming.</div>
+			<div class="privacySubTitleRemote" data-lang="privacy_subtitle_remote">You must enable remote data policy to use this feature.</div>
+			<div class="privacyDesc" data-lang="privacy_main_desc_1">This extension have some features that process your data automatically and may send some of them to the Alldebrid service or to a local app. You have to enable (opt-in) the use of those data to enable the related features.</div>
+			<div class="privacyDesc" data-lang="privacy_main_desc_2">The main data this extension may send to the Alldebrid service are urls (links) that are supported by the Alldebrid service and not explicitly blacklisted by the user in the settings. Magnet url/file are also forwarded on your demand when you use magnet-related features.</div>
+			<div class="privacyDescLast" data-lang="privacy_main_desc_3">Other features may send supported url to the Alldebrid service, but that will always be when you manually use a feature and you will be redirected to the Alldebrid website.</div>
+			<br />
+			<!-- <div class="privacyBtnZone">
+				<span class="greenBtn privacyEnableAll" data-lang="privacy_btn_enable_all">Enable all</span> 
+				<span class="redBtn privacyDisableAll" data-lang="privacy_btn_disable_all">Disable all</span>
+			</div> -->
+			<br />
+			<div class="privacyCat privacyRemote">
+				<div class="privacyCatTitle" data-lang="privacy_remote_title">Remote data use</div>
+				<div class="privacyCatDesc" data-lang="privacy_remote_desc_1">Only links from hosts supported by the Alldebrid links are sent, and only if the host has not been blacklisted and the automatic link scan is enabled.</div>
+				<div class="privacyCatDesc"><span data-lang="privacy_remote_desc_2">The following features automatically send supported links to the Alldebrid service : </span> <b data-lang="privacy_remote_desc_feat">Display quick action icons, Scan for files</b></div>
+				<div data-lang="privacy_remote_desc_3">You have to enable this to use those features.</div>
+				
+				<div class="privacyCatStatus" style="min-height: 30px;display: flex;justify-content: center;align-items: center;"><span data-lang="privacy_status">Status : </span>
+					<div style="min-width: 150px;text-align: left;margin-left: 10px; user-select: none; cursor: pointer;"><span class="tristate tristate-switcher">
+						<input style="pointer-events: none;" type="radio" id="remoteUse-state-off" name="remoteUse" value="-1">
+						<input style="pointer-events: none;" type="radio" id="remoteUse-state-null" name="remoteUse" value="0">
+						<input style="pointer-events: none;" type="radio" id="remoteUse-state-on" name="remoteUse" value="1">
+						<i></i>
+						<label data-lang="privacy_status_disabled" style="cursor: pointer; font-weight: bold; color: #b11e13" for="remoteUse-state-null">Disabled</label>
+						<label data-lang="privacy_must_choose" style="cursor: pointer; font-weight: bold; " for="remoteUse-state-on">Must choose</label>
+						<label data-lang="privacy_status_enabled" style="cursor: pointer; font-weight: bold;  color: #218624" for="remoteUse-state-off">Enabled</label>
+					</span></div>
+				</div>
+			</div>
+
+			<div class="privacyCat privacyLocal">
+				<div class="privacyCatTitle" data-lang="privacy_local_title">Local data use</div>
+				<div class="privacyCatDesc" data-lang="privacy_local_desc_1">This extension have a feature to open a video link to a local video player once you have installed the required app and enable the local streaming by choosing a player.</div>
+				<div class="privacyCatDesc" data-lang="privacy_local_desc_2">Only video links that you have manually clicked on (via the local streaming icon) will be sent to this local app, to be opened in your video player.</div>
+				<div><span data-lang="privacy_local_desc_3">You have to enable this to use the </span> <b data-lang="privacy_local_desc_feat">Local Streaming feature</b>.</div>
+				
+				<div class="privacyCatStatus" style="min-height: 30px;display: flex;justify-content: center;align-items: center;"><span data-lang="privacy_status">Status : </span>
+					<div style="min-width: 150px;text-align: left;margin-left: 10px; user-select: none; cursor: pointer;"><span class="tristate tristate-switcher">
+						<input style="pointer-events: none;" type="radio" id="localUse-state-off" name="localUse" value="-1">
+						<input style="pointer-events: none;" type="radio" id="localUse-state-null" name="localUse" value="0">
+						<input style="pointer-events: none;" type="radio" id="localUse-state-on" name="localUse" value="1">
+						<i></i>
+						<label data-lang="privacy_status_disabled" style="cursor: pointer; font-weight: bold; color: #b11e13" for="localUse-state-null">Disabled</label>
+						<label data-lang="privacy_must_choose" style="cursor: pointer; font-weight: bold; " for="localUse-state-on">Must choose</label>
+						<label data-lang="privacy_status_enabled" style="cursor: pointer; font-weight: bold;  color: #218624" for="localUse-state-off">Enabled</label>
+					</span></div>
+				</div>
+			</div>
+			<br />
+			<div style="text-align: center;">
+				<span class="privacySubmitWarn" data-lang="privacy_warn" style="color: #b11e13; font-size: 12px; ">You must accept or decline remote and local data use before using the extension</span><br /><br />
+				<span class="grayBtn privacySubmit" disabled data-lang="privacy_submit">Submit</span> 
+			</div>
+			<br />
+			<br />
+			<br />
+			<div class="privacyDescLast"><span data-lang="privacy_external_privacy">You will find the Alldebrid service privacy policy</span> <a target="_blank" href="https://alldebrid.com/privacy/" data-lang="privacy_external_privacy_page">on this page</a>.</div>
+			<hr>
+			<div style="margin: 10px 0px; text-align: center;">
+				<div>
+					<span>Automated requests to the Alldebrid service are loggued here.</span><br />
+					<span>API informations about requests can be found <a href="https://docs.alldebrid.com/v4/#general-informations" target="_blank" >in the Docs</a>.</span><br />
+					<br />
+				</div>
+				<div style="width: auto; margin: 0 auto; text-align: left; display: inline-block;">
+					<span>In the 2 minutes, there were</span> <span class="logsCount">0</span> <span>background requests</span> :
+					<ul>
+						<li><span class="linksLogs">0</span> <span>links information requests</span></li>
+						<li><span class="magnetsLogs">0</span> magnets status requests</li>
+						<li><span class="systemLogs">0</span> <span>system requests</span></li>
+					</ul>
+				</div>
+				<div>
+					<span class="privacySeeData"><span>See all data sent</span> <i class="fas fa-chevron-down"></i></span>
+					<span class="privacyHideData"><span>Hide data</span> <i class="fas fa-chevron-up"></i></span>
+				</div>
+				<textarea class="privacyRawData"></textarea>
+			</div>
+		</div>
+		<script src="simplebar.js"></script>
+		<script src="../libs/browser-polyfill.min.js"></script>
+		<script src="../libs/loglevel.js"></script>
+		<script src="../libs/xregexp.js"></script>
+		<script src="../utils.js"></script>
+		<script src="../helpers.js"></script>
+		<script src="privacy.js"></script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_icon": "img/icon.png",
+      "default_popup": "popup/popup.html",
+      "default_title": "__MSG_Ext_Name__"
+   },
+   "background": {
+      "page": "main.html",
+      "service_worker": "worker.js"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "alldebrid@alldebrid.com",
+         "strict_min_version": "60.0"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_Ext_Description__",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "48": "img/icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/ZZyq8qdaS6UwH1PMHNKh3k/nf/CM8zQTEWu2XMznrzbQlCabbYb0YFFI3i0xZYZVZbpPyQKVvvo1a+bd/PjdIKqZl1GDtNsaPSc9Z9b68eewVhsOfLgrEL2GyLxwCXLwlm589uXqSnpRrxVYynaZ67XrXBa+i0Uc6c/z1NliCwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_Ext_Name__",
+   "permissions": [ "alarms", "scripting", "tabs", "notifications", "contextMenus", "webRequest", "webNavigation", "storage", "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "11.0.3",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "img/*", "content-scripts/*", "web-scripts/*", "popup/*", "webfonts/*" ]
+   } ]
+}

@@ -1,0 +1,77 @@
+2024/11/18-16:47:39.034 20bed Creating DB /home/pedro/.config/google-chrome/Default/Sync Data/LevelDB since it was missing.
+2024/11/18-16:47:39.046 20bed Reusing MANIFEST /home/pedro/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/11/18-16:48:16.207 20bfa Level-0 table #5: started
+2024/11/18-16:48:16.212 20bfa Level-0 table #5: 193938 bytes OK
+2024/11/18-16:48:16.222 20bfa Delete type=0 #3
+2024/11/18-16:48:17.442 20bf8 Level-0 table #7: started
+2024/11/18-16:48:17.447 20bf8 Level-0 table #7: 97528 bytes OK
+2024/11/18-16:48:17.458 20bf8 Delete type=0 #4
+2024/11/18-16:48:18.239 20bf8 Level-0 table #9: started
+2024/11/18-16:48:18.244 20bf8 Level-0 table #9: 97283 bytes OK
+2024/11/18-16:48:18.253 20bf8 Delete type=0 #6
+2024/11/18-16:48:18.982 20bf8 Level-0 table #11: started
+2024/11/18-16:48:18.987 20bf8 Level-0 table #11: 98637 bytes OK
+2024/11/18-16:48:18.996 20bf8 Delete type=0 #8
+2024/11/18-16:48:19.718 20bf8 Level-0 table #13: started
+2024/11/18-16:48:19.725 20bf8 Level-0 table #13: 98471 bytes OK
+2024/11/18-16:48:19.734 20bf8 Delete type=0 #10
+2024/11/18-16:48:20.306 20bf7 Level-0 table #15: started
+2024/11/18-16:48:20.311 20bf7 Level-0 table #15: 96549 bytes OK
+2024/11/18-16:48:20.333 20bf7 Delete type=0 #12
+2024/11/18-16:48:20.333 20bf7 Compacting 4@0 + 1@1 files
+2024/11/18-16:48:20.337 20bf7 Generated table #16@0: 22 keys, 5789 bytes
+2024/11/18-16:48:20.337 20bf7 Compacted 4@0 + 1@1 files => 5789 bytes
+2024/11/18-16:48:20.346 20bf7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/18-16:48:20.346 20bf7 Delete type=2 #7
+2024/11/18-16:48:20.346 20bf7 Delete type=2 #9
+2024/11/18-16:48:20.346 20bf7 Delete type=2 #11
+2024/11/18-16:48:20.346 20bf7 Delete type=2 #13
+2024/11/18-16:48:20.346 20bf7 Delete type=2 #15
+2024/11/18-16:48:21.442 20bf7 Level-0 table #18: started
+2024/11/18-16:48:21.446 20bf7 Level-0 table #18: 98106 bytes OK
+2024/11/18-16:48:21.450 20bf7 Delete type=0 #14
+2024/11/18-16:48:22.239 20bf7 Level-0 table #20: started
+2024/11/18-16:48:22.242 20bf7 Level-0 table #20: 97537 bytes OK
+2024/11/18-16:48:22.245 20bf7 Delete type=0 #17
+2024/11/18-16:48:23.072 20bf7 Level-0 table #22: started
+2024/11/18-16:48:23.075 20bf7 Level-0 table #22: 99189 bytes OK
+2024/11/18-16:48:23.078 20bf7 Delete type=0 #19
+2024/11/18-16:48:23.956 20bf8 Level-0 table #24: started
+2024/11/18-16:48:23.962 20bf8 Level-0 table #24: 99617 bytes OK
+2024/11/18-16:48:23.965 20bf8 Delete type=0 #21
+2024/11/18-16:48:23.965 20bf8 Compacting 4@0 + 1@1 files
+2024/11/18-16:48:23.968 20bf8 Generated table #25@0: 27 keys, 6638 bytes
+2024/11/18-16:48:23.968 20bf8 Compacted 4@0 + 1@1 files => 6638 bytes
+2024/11/18-16:48:23.972 20bf8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/18-16:48:23.972 20bf8 Delete type=2 #16
+2024/11/18-16:48:23.972 20bf8 Delete type=2 #18
+2024/11/18-16:48:23.972 20bf8 Delete type=2 #20
+2024/11/18-16:48:23.972 20bf8 Delete type=2 #22
+2024/11/18-16:48:23.972 20bf8 Delete type=2 #24
+2024/11/18-16:48:24.588 20bf7 Level-0 table #27: started
+2024/11/18-16:48:24.590 20bf7 Level-0 table #27: 80699 bytes OK
+2024/11/18-16:48:24.594 20bf7 Delete type=0 #23
+2024/11/18-16:48:25.198 20bf7 Level-0 table #29: started
+2024/11/18-16:48:25.201 20bf7 Level-0 table #29: 99280 bytes OK
+2024/11/18-16:48:25.204 20bf7 Delete type=0 #26
+2024/11/18-16:48:26.444 20bf7 Level-0 table #31: started
+2024/11/18-16:48:26.448 20bf7 Level-0 table #31: 99033 bytes OK
+2024/11/18-16:48:26.453 20bf7 Delete type=0 #28
+2024/11/18-16:48:27.114 20bf7 Level-0 table #33: started
+2024/11/18-16:48:27.117 20bf7 Level-0 table #33: 98635 bytes OK
+2024/11/18-16:48:27.123 20bf7 Delete type=0 #30
+2024/11/18-16:48:27.123 20bf7 Compacting 4@0 + 1@1 files
+2024/11/18-16:48:27.127 20bf7 Generated table #34@0: 32 keys, 7692 bytes
+2024/11/18-16:48:27.127 20bf7 Compacted 4@0 + 1@1 files => 7692 bytes
+2024/11/18-16:48:27.132 20bf7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/18-16:48:27.132 20bf7 Delete type=2 #25
+2024/11/18-16:48:27.132 20bf7 Delete type=2 #27
+2024/11/18-16:48:27.132 20bf7 Delete type=2 #29
+2024/11/18-16:48:27.132 20bf7 Delete type=2 #31
+2024/11/18-16:48:27.132 20bf7 Delete type=2 #33
+2024/11/18-16:48:28.351 20bf7 Level-0 table #36: started
+2024/11/18-16:48:28.356 20bf7 Level-0 table #36: 100060 bytes OK
+2024/11/18-16:48:28.361 20bf7 Delete type=0 #32
+2024/11/18-16:48:29.120 20bf8 Level-0 table #38: started
+2024/11/18-16:48:29.123 20bf8 Level-0 table #38: 97879 bytes OK
+2024/11/18-16:48:29.127 20bf8 Delete type=0 #35
