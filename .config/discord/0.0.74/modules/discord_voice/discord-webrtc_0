@@ -157,3 +157,10 @@ Render pre processor: 0
 [2024-11-18 16:58:10.639] [272934] (region_latency_tester.cpp:283): Average RTT for region frankfurt is 41.25
 [2024-11-18 16:58:10.639] [272934] (region_latency_tester.cpp:283): Average RTT for region rotterdam is 51.25
 [2024-11-18 16:58:10.639] [272934] (region_latency_tester.cpp:283): Average RTT for region warsaw is 68.5
+[2024-11-18 17:08:49.139] [136570] JS console: [GatewaySocket] [WS CLOSED] (true, 4003, Not authenticated.) retrying in 1.05 seconds.
+[2024-11-18 17:08:50.192] [136570] JS console: [GatewaySocket] [CONNECT] wss://gateway-us-east1-d.discord.gg, encoding: etf, version: 9, compression: zstd-stream
+[2024-11-18 17:08:50.404] [136570] JS console: [GatewaySocket] [CONNECTED] wss://gateway-us-east1-d.discord.gg/?encoding=etf&v=9&compress=zstd-stream in 212 ms
+[2024-11-18 17:08:50.404] [136570] JS console: [GatewaySocket] [RESUME] resuming session ec30f0daa53f082c21a1561d6ee1817c, seq: 80
+[2024-11-18 17:08:50.513] [136570] JS console: [GatewaySocket] [INVALID_SESSION]
+[2024-11-18 17:08:50.641] [136570] JS console: [GatewaySocket] [WS CLOSED] because of authentication failure, marking as closed.
+[2024-11-18 17:08:50.641] [136570] JS console: [GatewaySocket] [RESET] (true, 4004, Authentication failed.)
